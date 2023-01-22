@@ -1,0 +1,367 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+
+    height: 960px;
+    width: 960px;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid;
+
+
+}
+
+.main {
+
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: 150px;
+    color: gray;
+    text-decoration: none;
+    position: relative;
+    bottom: 25px;
+    right: 150px;
+
+
+
+
+}
+
+.list>a {
+    margin-right: 20px;
+}
+
+.list>button {
+    background-color: aqua;
+    padding: 3px;
+    position: relative;
+    left: 69px;
+}
+
+.NavBar {
+
+    height: 50px;
+    width: 960px;
+    background-color: black;
+    margin-bottom: 25px;
+
+
+}
+
+.h1 {
+    font-family: fantasy;
+    -webkit-text-fill-color: rgb(110, 110, 110);
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+
+}
+
+#Profile {
+    display: flex;
+    -webkit-text-fill-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    position: relative;
+    right: 260px;
+}
+
+.main-page1 {
+
+    height: 300px;
+    width: 400px;
+    background-color: blanchedalmond;
+    border: solid grey;
+    margin-bottom: 20px;
+
+    position: relative;
+    left: 110px;
+    top: 50px;
+}
+
+#banner1 {
+    height: 50px;
+    width: 400px;
+    background-color: aqua;
+}
+
+#Jane-Doe {
+
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    position: relative;
+    left: 30px;
+    bottom: 30px;
+}
+
+#map-marker {
+    height: 10px;
+    width: 10px;
+}
+
+#gear-1 {
+    height: 10px;
+    width: 10px;
+}
+
+.main-page3 {
+    height: 125px;
+    width: 400px;
+    background-color: blanchedalmond;
+    border: solid grey;
+    position: relative;
+    right: 500px;
+    top: 400px;
+
+}
+
+#banner2 {
+    height: 50px;
+    width: 400px;
+    background-color: grey;
+}
+
+#Education {
+    color: beige;
+}
+
+.main-page2 {
+    height: 200px;
+    width: 200px;
+    border: solid grey;
+    display: flex;
+    position: relative;
+    left: 250px;
+    top: 50px;
+    
+
+}
+
+#banner4 {
+    height: 30px;
+    width: 200px;
+    background-color: gray;
+}
+
+#banner5>p {
+    text-align: right;
+}
+
+#banner5>ul {
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style: none;
+    position: relative;
+    left: 5px;
+    top: 8px;
+}
+#banner5> #todd , #Phil {
+    position: relative;
+    top: 5px;
+}
+#banner5>#accept1,
+#Close1 {
+    display: block;
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+
+
+}
+
+#banner5>#accept2,
+#Close2 {
+    display: block;
+    position: relative;
+    left: 140px;
+    bottom: 110px;
+    display: flex;
+    flex-direction: row-reverse
+}
+
+#todd {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+
+}
+
+#Phil {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+#accept1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+#accept2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+#Close1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+#Close2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+.N2 {
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    border: solid grey;
+    display: flex;
+    background-color: rgb(204, 204, 204);
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 22px;
+}
+
+p {
+    color: blanchedalmond;
+
+}
+
+.main-page4 {
+
+    height: 280px;
+    width: 200px;
+    border: solid grey;
+    display: flex;
+    position: relative;
+    left: 630px;
+    bottom: 70px;
+}
+
+.main-page1>h2 {
+    position: relative;
+    bottom: 22px;
+    left: 20px;
+}
+
+.main-page5 {
+    height: 30px;
+    width: 200px;
+    border: solid grey;
+    position: relative;
+    left: 630px;
+    bottom: 70px;
+}
+
+#banner7 {
+    height: 30px;
+    width: 200px;
+    background-color: gray;
+}
+
+#banner7>p {
+    text-align: right;
+}
+
+#N500 {
+
+    height: 20px;
+    width: 40px;
+    background-color: rgb(204, 204, 204);
+    border-radius: 50px;
+    position: relative;
+    bottom: 15px;
+    text-align: center;
+
+
+
+}
+
+#N500>p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.Names>ul {
+    position: relative;
+    left: 80px;
+    top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    font-weight: 800;
+    font-style: normal;
+
+
+}
+
+#Adrien {
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    position: relative;
+    right: 45px;
+    bottom: 40px;
+
+}
+
+#Anne {
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    position: relative;
+    right: 45px;
+    bottom: 40px;
+}
+
+#Alayne {
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    position: relative;
+    right: 45px;
+    bottom: 40px;
+}
+
+#Arry {
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    position: relative;
+    right: 45px;
+    bottom: 40px;
+}
+
+#Adrien,
+#Anne,
+#Alayne,
+#Arry {
+    margin-top: 5px;
+    position: relative;
+
+
+}

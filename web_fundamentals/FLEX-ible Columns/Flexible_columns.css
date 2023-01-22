@@ -1,0 +1,41 @@
+
+
+
+.row {
+
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+.col{
+    height: auto;
+    width: auto;
+    padding: 10px;
+    margin: 20px;
+    background-color: aqua;
+    display: flex;
+    flex: 1;
+
+}
+.col-2{
+    height: auto;
+    width: 50px;
+    padding 10px;
+    margin: 20px;
+    background-color: aqua;
+    display: flex;
+    flex: 2;
+}
+.col-3{
+    height: auto;
+    width: 50px;
+    padding: 10px;
+    margin: 20px;
+    background-color: aqua;
+    display: flex;
+    flex: 3;
+}
+
